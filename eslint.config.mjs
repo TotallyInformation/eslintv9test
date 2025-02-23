@@ -39,7 +39,7 @@ export default [
   },
   {
     // node-cjs: node/commonjs/2020
-    files: ['node-cjs/node-cjs.js'],
+    files: ['node-cjs/**/*'],
     languageOptions: {
       sourceType: 'commonjs',
       ecmaVersion: 2019,
@@ -47,7 +47,7 @@ export default [
   },
   {
     // node-esm: node/esm/latest
-    files: ['node-esm/node-esm.js'],
+    files: ['node-esm/**/*'],
     languageOptions: {
       sourceType: 'module',
       ecmaVersion: 'latest',
