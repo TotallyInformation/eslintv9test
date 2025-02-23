@@ -1,0 +1,25 @@
+{
+  "name": "eslintv9test",
+  "version": "1.0.0",
+  "description": "A test repo for ESLINT v9 issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TotallyInformation/eslintv9test.git"
+  },
+  "keywords": [],
+  "author": "Julian Knight (Totally Information)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TotallyInformation/eslintv9test/issues"
+  },
+  "homepage": "https://github.com/TotallyInformation/eslintv9test#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0"
+  }
+}
